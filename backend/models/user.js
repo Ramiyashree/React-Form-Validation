@@ -14,12 +14,23 @@ let userSchema = new Schema({
   phonenumber: {
     type: Number
   },
-  aaadhar: {
+  aadharno: {
+    type: Number
+  },
+  education: {
     type: String
   },
-  pancard: {
+  keyskills: {
+    type: String
+  },
+  experience: {
+    type: Number
+  },
+  password: {
     type: String
   }
+
+
 }, {
     collection: 'users'
   })
